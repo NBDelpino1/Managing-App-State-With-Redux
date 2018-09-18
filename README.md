@@ -1,6 +1,25 @@
-# Managing-App-State-With-Redux
+# ReduxSimpleStarter
 
+Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
-// created reducer inside reducers folder to return array with list of objects, added reducer to combinedReducers call inside index.js, reducer will add a key to global application state called books (key = books, value = whatever is returned from the reducer)
-// created component book-list, promoted it to container because it needed to be aware of state, promoted to container by 1st importing the connect function from react-redux, then defined mapStateToProps then hooked the component together with mapStateToProps using the connect function
-// made sure app.js rendered the list
+### Getting Started
+
+There are two methods for getting started with this repo.
+
+#### Familiar with Git?
+Checkout this repo, install dependencies, then start the gulp process with the following:
+
+```
+> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
+> cd ReduxSimpleStarter
+> npm install
+> npm start
+```
+
+#### Not Familiar with Git?
+Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+
+```
+> npm install
+> npm start
+```
